@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path@Penn - Course Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="mobile-container">
+        <header class="header">
+            <h1 class="header-title">Path@Penn</h1>
+        </header>
+
+        <main class="main-content">
+            <section class="trending-section">
+                <h2 class="trending-header">Trending in Computer Science</h2>
+                
+                <div class="trending-cards-container">
+                    <div class="trending-cards">
+                        <div class="course-card">
+                            <div class="course-code">CIS 120</div>
+                            <h3 class="course-title">Programming Languages and Techniques</h3>
+                            <div class="course-details">
+                                <div class="course-time">MWF 10:00-11:00 AM</div>
+                                <div class="course-instructor">Prof. Smith • Towne 100</div>
+                            </div>
+                            <div class="availability">
+                                <span class="availability-dot"></span>
+                                <span class="availability-text">23 seats available</span>
+                            </div>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+
+                        <div class="course-card">
+                            <div class="course-code">CIS 240</div>
+                            <h3 class="course-title">Computer Architecture</h3>
+                            <div class="course-details">
+                                <div class="course-time">TTH 2:00-3:30 PM</div>
+                                <div class="course-instructor">Prof. Johnson • Moore 212</div>
+                            </div>
+                            <div class="availability">
+                                <span class="availability-dot"></span>
+                                <span class="availability-text">8 seats available</span>
+                            </div>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+
+                        <div class="course-card">
+                            <div class="course-code">CIS 160</div>
+                            <h3 class="course-title">Mathematical Foundations</h3>
+                            <div class="course-details">
+                                <div class="course-time">MWF 2:00-3:00 PM</div>
+                                <div class="course-instructor">Prof. Williams • Wu & Chen 100</div>
+                            </div>
+                            <div class="availability">
+                                <span class="availability-dot"></span>
+                                <span class="availability-text">15 seats available</span>
+                            </div>
+                            <button class="add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="search-section">
+                <h2 class="section-title">Search Courses</h2>
+                
+                <div class="search-form">
+                    <input 
+                        type="text" 
+                        class="search-input" 
+                        placeholder="Title, Subject, Instructor, Keyword"
+                    >
+                    
+                    <div class="dropdown-container">
+                        <button class="dropdown-btn" type="button">
+                            <span>Advanced Search Options</span>
+                            <span class="dropdown-arrow">▼</span>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="dropdown-option">
+                                <label>Term:</label>
+                                <select>
+                                    <option>Fall 2025</option>
+                                </select>
+                            </div>
+                            <div class="dropdown-option">
+                                <label>Subject:</label>
+                                <select>
+                                    <option>All Subjects</option>
+                                </select>
+                            </div>
+                            <div class="dropdown-option">
+                                <label>School:</label>
+                                <select>
+                                    <option>All Schools</option>
+                                </select>
+                            </div>
+                            <div class="dropdown-option">
+                                <label>Course Level:</label>
+                                <select>
+                                    <option>All Levels</option>
+                                </select>
+                            </div>
+                            <div class="dropdown-option">
+                                <label>Credits:</label>
+                                <select>
+                                    <option>Any Credits</option>
+                                </select>
+                            </div>
+                            <div class="dropdown-option toggle-option">
+                                <label>Avoid Schedule Conflicts:</label>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="search-btn" type="button">SEARCH</button>
+                </div>
+            </section>
+
+            <section class="quick-access-section">
+                <h2 class="section-title">Quick Access</h2>
+                
+                <div class="quick-access-buttons">
+                    <button class="access-btn" type="button">Primary Cart</button>
+                    <button class="access-btn" type="button">Primary Plan</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="dropdown.js"></script>
+</body>
+</html>
